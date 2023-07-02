@@ -10,7 +10,7 @@ public class First_Ucase {
     }
     static char ucase(String str,int start)
     {
-        if(((int)str.charAt(start)>=65)&&((int)str.charAt(start)<=97))
+        if(((int)str.charAt(start)>=65)&&((int)str.charAt(start)<=90))
         {
             return str.charAt(start);
         }
