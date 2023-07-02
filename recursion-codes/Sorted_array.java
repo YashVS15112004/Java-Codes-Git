@@ -11,6 +11,7 @@ public class Sorted_array {
             arr[i] = in.nextInt();
         }
         System.out.println(issorted(arr,arr.length));
+        in.close();
     }
     public static boolean issorted(int[] arr,int size)
     {

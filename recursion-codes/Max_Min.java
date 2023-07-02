@@ -14,6 +14,7 @@ public class Max_Min {
         int min_elem = min(arr,s,e,m);
         int max_elem = max(arr,s,e,m);
         System.out.print("min = "+min_elem+","+"max = "+max_elem);
+        in.close();
     }
     static int max(int[] arr,int s,int e,int mx)
     {

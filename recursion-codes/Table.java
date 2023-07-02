@@ -7,7 +7,7 @@ public class Table {
         int n = in.nextInt();
         System.out.printf("The table of %d is::\n",n);
         table(n,1);
-
+        in.close();
     }
     static int table(int n,int i)
     {

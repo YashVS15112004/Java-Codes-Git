@@ -14,6 +14,7 @@ public class Sum_Triangle {
         int len = arr.length;
         sum_triangle(arr,len);
         System.out.println(Arrays.toString(arr));
+        in.close();
     }
     static int[]  sum_triangle(int[] arr,int len)
     {

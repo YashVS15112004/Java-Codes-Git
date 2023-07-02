@@ -6,6 +6,7 @@ public class Sum_Firstn {
         System.out.print("Enter the number::");
         int n = in.nextInt();
         System.out.println("The sum is"+" "+sum(n,0));
+        in.close();
     }
     static int sum(int i,int sm)
     {

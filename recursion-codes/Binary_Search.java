@@ -12,6 +12,8 @@ public class Binary_Search {
         int target = in.nextInt();
         int ans = bs(arr,target,0,arr.length-1);
         System.out.println(ans);
+        in.close();
+
     }
     static int bs(int[] arr,int target,int start,int end)
     {

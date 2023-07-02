@@ -1,21 +1,21 @@
 import java.util.Scanner;
-public class n_to_1{
+public class One_to_n{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number::");
         int n = in.nextInt();
-        nums(n);
+        nums(n,1);
         in.close();
     }
-    static void nums(int n)
+    static void nums(int n,int x)
     {
-        if (n==0)
+        if (n<x)
         {          
             return;
         }
         else{
-            System.out.print(n+",");
-            nums(n-1);
+            System.out.print(x+" ");
+            nums(n,x+1);
         }
     }
 }

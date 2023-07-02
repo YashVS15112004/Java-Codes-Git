@@ -12,6 +12,7 @@ public class Sum_Series {
         else{
             System.out.println("Enter valid number::");
         }
+        in.close();
     }
     static double num(int n,double sum)
     {

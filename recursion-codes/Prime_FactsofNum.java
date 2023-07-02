@@ -11,6 +11,7 @@ public class Prime_FactsofNum {
         else {
             System.out.println(num(n,n));
         }
+        in.close();
     }
     static int num(int i,int n) {
         // i is constant.

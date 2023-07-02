@@ -7,6 +7,7 @@ public class Fibonacci {
         int n = in.nextInt();
         int ans = fibonac(n);
         System.out.print(ans);
+        in.close();
     }
     static int fibonac(int n)
     {

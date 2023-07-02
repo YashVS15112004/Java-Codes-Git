@@ -6,7 +6,7 @@ public class Sum_Digits {
         System.out.print("Enter the number::");
         int n = in.nextInt();
         System.out.println("The sum is ::"+" "+sum_digits(n,0));
-
+        in.close();
     }
     static int sum_digits(int n,int sum)
     {

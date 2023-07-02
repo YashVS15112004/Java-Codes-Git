@@ -12,6 +12,7 @@ public class Sum_EvenNum {
         else{
             System.out.println("Enter a even number!!");
         }
+        in.close();
     }
     static int even_sm(int n,int sum)
     {

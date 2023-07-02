@@ -13,6 +13,7 @@ public class GCD {
             n2=temp;
         }
         System.out.println("The gcd is::"+cal_gcd(n1,n2));
+        in.close();
     }
     static int cal_gcd(int n1,int n2)
     {
