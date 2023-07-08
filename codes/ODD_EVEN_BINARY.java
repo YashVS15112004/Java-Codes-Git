@@ -5,6 +5,7 @@ public class ODD_EVEN_BINARY {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         oe(n);
+        in.close();
     }
     static void oe(int n)
     {

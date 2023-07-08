@@ -7,6 +7,7 @@ public class Armstrong_Number {
         int n = in.nextInt();
         boolean ans = arms(n);
         System.out.println(ans);
+        in.close();
     }
     static boolean arms(int n) {
         int s = 0;

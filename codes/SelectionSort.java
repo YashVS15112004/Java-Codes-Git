@@ -17,6 +17,7 @@ public class SelectionSort {
         int [] sortedarr = ssort(arr,n);
         System.out.println("The sorted array is::");
         System.out.println(Arrays.toString(sortedarr));
+        in.close();
     }
     static int[] ssort(int[] arr,int n)
     {

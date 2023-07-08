@@ -19,5 +19,6 @@ public class Frequency_of_digit {
             n=n/10;
         }
         System.out.print("The frequency of "+x+" is :: "+count);
+        in.close();
     }
 }

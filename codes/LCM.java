@@ -10,6 +10,7 @@ public class LCM {
             int gcd = hcf(a,b);
             int ans = lcm(a,b,gcd);
             System.out.println(ans);
+            in.close();
         }
         static int hcf(int a,int b)
         {

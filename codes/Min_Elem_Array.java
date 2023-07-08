@@ -17,7 +17,7 @@ public class Min_Elem_Array {
             int smallest = min(arr,n);
 
             System.out.print("The minimum element is ::"+" "+smallest);
-
+            in.close();
         }
 
         static int min(int[] arr2,int n)

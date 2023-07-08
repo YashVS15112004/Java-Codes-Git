@@ -1,8 +1,5 @@
-import java.util.Scanner;
-
 public class a_to_b_using_Binary {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
         int base = 2;
         int power = 4;
         int ans = 1;

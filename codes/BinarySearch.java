@@ -17,6 +17,7 @@ public class BinarySearch {
         System.out.println(Arrays.toString(reverse));
         int idx = binarySearch(arr,target);
         System.out.print("The index is ::"+idx);
+        in.close();
     }
         static int[] rev(int[] arr1, int n) {
         int temp=0;

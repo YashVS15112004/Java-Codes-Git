@@ -13,6 +13,7 @@ public class Prime_number {
             String ans = prime(n);
             System.out.println(ans);
         }
+        in.close();
     }
 
     static String prime(int n) {

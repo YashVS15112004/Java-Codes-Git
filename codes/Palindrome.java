@@ -8,6 +8,7 @@ public class Palindrome {
         System.out.println(text);
         int n = text.length();
         boolean ans = false;
+        in.close();
         String ltext = text.toLowerCase();
         for(int i=0;i<n/2;i++)
         {

@@ -17,6 +17,7 @@ public class CyclicSort {
         int [] sortedarr = csort(arr);
         System.out.println("The sorted array is::");
         System.out.println(Arrays.toString(sortedarr));
+        in.close();
     }
     static int[] csort(int[] arr)
     {

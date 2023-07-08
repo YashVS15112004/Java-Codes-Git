@@ -10,6 +10,7 @@ public class Missing_No_Binary {
         }
         int ans = miss(arr);
         System.out.println(ans);
+        in.close();
     }
     static int miss(int[] arr) {
         int unique=0;

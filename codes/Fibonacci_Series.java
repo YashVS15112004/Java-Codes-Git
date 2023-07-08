@@ -21,5 +21,6 @@ public class Fibonacci_Series {
             }
             System.out.println();
             System.out.println("The nth element is::"+s);
+            in.close();
         }
     }

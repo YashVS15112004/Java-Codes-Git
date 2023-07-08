@@ -30,6 +30,7 @@ public class BinarySearch_Matrix {
         int[] x = bsearch(arr,target);
         System.out.println("The indexes are::");
         System.out.println(Arrays.toString(x));
+        in.close();
     }
     static int[] bsearch(int[][] arr,int target)
     {

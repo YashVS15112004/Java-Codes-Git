@@ -13,6 +13,7 @@ public class Magic_No_Binary {
                     base = base * 5;
                 }
         System.out.println(ans);
+        in.close();
             }
         }
 

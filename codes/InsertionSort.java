@@ -17,6 +17,7 @@ public class InsertionSort {
         int [] sortedarr = isort(arr);
         System.out.println("The sorted array is::");
         System.out.println(Arrays.toString(sortedarr));
+        in.close();
 }
 static int[] isort(int[] arr)
 {

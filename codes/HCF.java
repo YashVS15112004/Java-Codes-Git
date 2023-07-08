@@ -9,6 +9,7 @@ public class HCF {
         int b = in.nextInt();
         int ans = hcf(a,b);
         System.out.println(ans);
+        in.close();
     }
     static int hcf(int a,int b)
     {

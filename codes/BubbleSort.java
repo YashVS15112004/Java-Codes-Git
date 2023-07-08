@@ -17,6 +17,7 @@ public class BubbleSort {
         int[] sarr = Bubblesort(arr,n);
         System.out.println("The sorted array is::");
         System.out.println(Arrays.toString(sarr));
+        in.close();
     }
     static int[] Bubblesort(int[] arr,int n)
     {

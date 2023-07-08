@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Factors {
@@ -7,6 +6,7 @@ public class Factors {
         System.out.print("Enter the number::");
         int n = in.nextInt();
         facts(n);
+        in.close();
     }
     static void facts(int n)
     {

@@ -1,4 +1,3 @@
-import javax.script.ScriptContext;
 import java.util.Scanner;
 
 public class Newton_Sqrt {
@@ -8,6 +7,7 @@ public class Newton_Sqrt {
         int n = in.nextInt();
         double ans =sqrt(n);
         System.out.print(ans);
+        in.close();
     }
     static double sqrt(int n)
     {

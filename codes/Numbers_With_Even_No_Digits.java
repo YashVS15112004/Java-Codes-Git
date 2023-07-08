@@ -16,6 +16,7 @@ public class Numbers_With_Even_No_Digits {
         System.out.println(Arrays.toString(arr));
         int x = even(arr,n);
         System.out.println("The number of elements are ::"+" "+x);
+        in.close();
     }
     static int even(int[] arr2,int n)
     {
@@ -26,7 +27,6 @@ public class Numbers_With_Even_No_Digits {
             int a = arr2[i];
             while(a!=0)
             {
-                int r = a%10;
                 count++;
                 a = a/10;
             }

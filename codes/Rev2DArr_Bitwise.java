@@ -7,6 +7,7 @@ public class Rev2DArr_Bitwise {
         int r = in.nextInt();
         System.out.print("Enter the number of cols::");
         int c = in.nextInt();
+        in.close();
         int[][] arr = new int[r][c];
         for(int i=0;i<r;i++)
         {
@@ -46,7 +47,6 @@ public class Rev2DArr_Bitwise {
     }
     static int[][] rev(int[][] arr,int r,int c)
     {
-        int[][] n_arr = new int[r][c];
         for(int i =0;i<r;i++)
         {
             for(int j=0;j<c;j++)

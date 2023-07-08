@@ -16,7 +16,7 @@ public class Max_Elem_Array {
         int largest = max(arr,n);
 
         System.out.print("The maximum element is ::"+" "+largest);
-
+        in.close();
     }
 
     static int max(int[] arr2,int n)

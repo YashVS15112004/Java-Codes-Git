@@ -18,7 +18,7 @@ public class Swapping_2elem_Array {
         System.out.println("Enter the 2 indexes ::");
         int a = in.nextInt();
         int b = in.nextInt();
-
+        in.close();
         swap(arr,a,b);
 
         System.out.println("The array after swapping ::");

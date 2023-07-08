@@ -14,6 +14,7 @@ public class Rev_Array {
         System.out.println("The original array is ::"+" "+Arrays.toString(arr));
         rev(arr,n);
         System.out.println("The reversed array is ::"+" "+Arrays.toString(arr));
+        in.close();
     }
     static void rev(int [] arr2,int n)
     {

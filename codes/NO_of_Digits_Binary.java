@@ -6,5 +6,6 @@ public class NO_of_Digits_Binary {
         int x = 2;
         int number = (int)(Math.log(a) / Math.log(x)) +1;
         System.out.println(number);
+        in.close();
     }
 }

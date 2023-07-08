@@ -6,6 +6,7 @@ public class Sieve_Prime {
         int n = in.nextInt();
         boolean[] nlist = new boolean[n+1];
         prime(n,nlist);
+        in.close();
         // false in arrays means the element is false.
     }
     static void prime(int n,boolean[] nlist)
